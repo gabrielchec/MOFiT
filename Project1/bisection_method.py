@@ -23,15 +23,17 @@ def plot_bis_one():
     ax.plot(point_one_x, point_one_y, 'bo')
     ax.set(xlabel='X', ylabel="V", title="Metoda bisekcji")
     ax.plot(fun_point_one, list(map(equation, fun_point_one)))
-    plt.show()
     plt.savefig("bis_point_one.png")
+    plt.show()
 
 
 def plot_bis_two():
     ax.plot(point_two_x, point_two_y, 'go')
     ax.set(xlabel='X', ylabel="V", title="Metoda bisekcji")
     ax.plot(fun_point_two, list(map(equation, fun_point_two)))
-    plt.show()
+    #plt.show()
     plt.savefig("bis_point_two.png")
 
-print(point_one_x)
+#plot_bis_one()
+#plot_bis_two()
+

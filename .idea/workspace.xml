@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24227e0c-1163-4ad7-ba6c-c491f0f584db" name="Default Changelist" comment="" />
+    <list default="true" id="24227e0c-1163-4ad7-ba6c-c491f0f584db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/bis_point_one.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/bis_point_one.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/bis_point_two.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/bis_point_two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/bisection_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/bisection_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/euler_integral_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/euler_integral_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/new_point_one.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/new_point_one.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/new_point_two.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/new_point_two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/newton_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/newton_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/trapeze_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/trapeze_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/x(t).png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/x(t).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/x(t)_trapeze.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/x(t)_trapeze.png" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,22 +28,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project1/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Project1/newton_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method_resistance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="37" column="32" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project1/trapeze_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="261">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -76,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,12 +77,12 @@
         <option value="$PROJECT_DIR$/Project1/bisection_method" />
         <option value="$PROJECT_DIR$/Project1/bisection_method_1.py" />
         <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/Project1/bisection_method.py" />
+        <option value="$PROJECT_DIR$/Project1/newton_method.py" />
         <option value="$PROJECT_DIR$/Project1/euler_integral_method.py" />
         <option value="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" />
-        <option value="$PROJECT_DIR$/Project1/trapeze_method.py" />
-        <option value="$PROJECT_DIR$/Project1/bisection_method.py" />
         <option value="$PROJECT_DIR$/Project1/main.py" />
-        <option value="$PROJECT_DIR$/Project1/newton_method.py" />
+        <option value="$PROJECT_DIR$/Project1/trapeze_method.py" />
       </list>
     </option>
   </component>
@@ -98,6 +92,7 @@
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -123,6 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -211,21 +207,23 @@
       <workItem from="1583317826373" duration="18629000" />
       <workItem from="1583922294920" duration="837000" />
       <workItem from="1583930002801" duration="23000" />
+      <workItem from="1584105539223" duration="3478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19489000" />
+    <option name="totallyTimeSpent" value="22967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17821783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17821783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -247,7 +245,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mofit$main.coverage" NAME="main Coverage Results" MODIFIED="1584105660779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
+    <SUITE FILE_PATH="coverage/Mofit$main.coverage" NAME="main Coverage Results" MODIFIED="1584108125072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project1/bis_point_two.png">
@@ -256,27 +254,49 @@
     <entry file="file://$PROJECT_DIR$/Project1/bis_point_one.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method.py">
+    <entry file="file://$PROJECT_DIR$/Project1/bisection_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/new_point_one.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/new_point_two.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/newton_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/bisection_method.py">
+    <entry file="file://$PROJECT_DIR$/Project1/x(t).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="196">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/x(t)_resistance_2010.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/x(t)_resistance_50.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Project1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -292,30 +312,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method_resistance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="32" selection-end-line="41" />
+        <state relative-caret-position="408">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/x(t)_resistance.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/x(t)_resistance_05.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/trapeze_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="261">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/newton_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

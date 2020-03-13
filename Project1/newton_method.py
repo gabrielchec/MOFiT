@@ -29,17 +29,17 @@ def plot_new_one():
     ax.plot(point_one_x, point_one_y, 'bo')
     ax.set(xlabel='X', ylabel="V", title="Metoda Newtona-Raphsona")
     ax.plot(fun_point_one, list(map(equation, fun_point_one)))
-    plt.show()
     plt.savefig("new_point_one.png")
+    plt.show()
 
 
 def plot_new_two():
     ax.plot(point_two_x, point_two_y, 'go')
     ax.set(xlabel='X', ylabel="V", title="Metoda Newtona-Raphsona")
     ax.plot(fun_point_two, list(map(equation, fun_point_two)))
-    plt.show()
     plt.savefig("new_point_two.png")
+    plt.show()
+
 
 
 plot_new_two()
-print(point_two_x)

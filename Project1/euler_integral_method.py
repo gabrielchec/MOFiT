@@ -32,8 +32,9 @@ def plot_x_t():
     ax.plot(t,Ek,'r')
     ax.plot(t,Ek_V)
     ax.set(xlabel='t', ylabel="x", title="Jawna metoda Eulera")
-    plt.show()
     plt.savefig("x(t).png")
+    plt.show()
+
 
 
 plot_x_t()

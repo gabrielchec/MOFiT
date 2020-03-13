@@ -1,5 +1,6 @@
 from math import exp, pow
 import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
 
 
 def equation(t):
@@ -19,7 +20,7 @@ Ek = []
 Ek_V = []
 for i in t:
     x.append(x[-1] + v[-1] * dt)
-    v.append(v[-1] - derivative(x[-1]) * dt - alpha[1]*v[-1]*dt)
+    v.append(v[-1] - derivative(x[-1]) * dt - alpha[2] * v[-1] * dt)
     Ek.append(v[-1] * v[-1] / 2)
     Ek_V.append(Ek[-1] + equation(x[-1]))
 fig, ax = plt.subplots()
@@ -32,10 +33,18 @@ def plot_x_t():
     ax.plot(t, x, 'b')
     ax.plot(t, v, 'g')
     ax.plot(t, Ek, 'r')
-    ax.plot(t, Ek_V)
+    ax.plot(t, Ek_V, 'y')
     ax.set(xlabel='t', ylabel="x", title="Jawna metoda Eulera")
+    data_x = mlines.Line2D([], [], label='x(t)', color='blue')
+    data_v = mlines.Line2D([], [], label='v(t)', color='green')
+    data_Ek = mlines.Line2D([], [], label='Ek(t)', color='red')
+    data_Ek_V = mlines.Line2D([], [], label='Ek(t) - Ep(t)', color='yellow')
+
+    ax.legend(handles=[data_x, data_v, data_Ek, data_Ek_V], loc='upper left',
+              fontsize='x-large')
+
+    plt.savefig("x(t)_resistance_2010.png")
     plt.show()
-    plt.savefig("x(t)_resistance.png")
 
 
 plot_x_t()
