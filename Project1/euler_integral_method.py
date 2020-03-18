@@ -10,7 +10,7 @@ def derivative(t):
     return 2 * t * exp(-pow(t, 2)) - 1.2 * (4 - 2 * t) * exp(-pow(t - 2, 2))
 
 
-dt = 0.01
+dt = 0.1
 t = [i * dt for i in range(100000)]
 x = [2.8328820498299936]
 v = [0]
@@ -41,8 +41,8 @@ def plot_x_t():
 
 def plot_phase_portrait():
     ax.plot(x, v, 'b', markersize=1)
-    ax.set(xlabel='x', ylabel="v", title="Portret fazowy jawnej metody Eulera dla t = 100s")
-    plt.savefig("my_euler_phase_001_1000.png")
+    ax.set(xlabel='x', ylabel="v", title="Portret fazowy jawnej metody Eulera dla t = 10000s i dt = 0.1")
+    plt.savefig("my_euler_phase_01_10000.png")
     plt.show()
 
 

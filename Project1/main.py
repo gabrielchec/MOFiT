@@ -2,8 +2,8 @@ from math import exp, fabs
 import matplotlib.pyplot as plt
 #import bisection_method
 #import newton_method
-import euler_integral_method
-#import euler_integral_method_resistance
+#import euler_integral_method
+import euler_integral_method_resistance
 #import trapeze_method
 # -------------------------constant_values--------------------------------
 mass = 1
