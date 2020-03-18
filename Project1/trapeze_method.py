@@ -11,7 +11,7 @@ def derivative(t):
 
 
 dt = 0.01
-t = [i * dt for i in range(1000)]
+t = [i * dt for i in range(134)]
 alpha = [0]
 x = [2.8328820498299936]
 v = [0]
@@ -49,9 +49,9 @@ def plot_x_t():
 
 def plot_Ek_t():
     ax.plot(t, F_1, 'r')
-    #x.plot(t, F_2, 'b')
-    data_x = mlines.Line2D([], [], label='Ek(t)', color='blue')
-    data_v = mlines.Line2D([], [], label='v(t)', color='green')
+    ax.plot(t, F_2, 'b')
+    data_x = mlines.Line2D([], [], label='F_1(t)', color='red')
+    data_v = mlines.Line2D([], [], label='F_2(t)', color='blue')
     ax.legend(handles=[data_x, data_v], loc='upper left',
               fontsize='x-large')
 
