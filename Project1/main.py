@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 #import bisection_method
 #import newton_method
 #import euler_integral_method
-import euler_integral_method_resistance
-#import trapeze_method
+#import euler_integral_method_resistance
+import trapeze_method
 # -------------------------constant_values--------------------------------
 mass = 1
 energy = -0.6
@@ -16,6 +16,6 @@ def equation(t):
 
 #bisection_method
 #newton_method
-euler_integral_method
+#euler_integral_method
 #euler_integral_method_resistance
-#trapeze_method
+trapeze_method

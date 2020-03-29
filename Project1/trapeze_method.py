@@ -19,14 +19,19 @@ F_1 = []
 F_2 = []
 Ek = []
 Ev = []
+x.append(x[-1] + v[-1] * dt)
+
+v.append(v[-1] - derivative(x[-1]) * dt - alpha[0] * v[-1] * dt)
 for i in t:
-    v.append(v[-1] - derivative(x[-1]) * dt - alpha[0] * v[-1] * dt)
-    x.append(x[-1] + v[-1] * dt)
+    x.append(x[-1] + (v[-1] + v[-2]) * dt / 2)
+    v.append(v[-1] + dt /2 * ( -derivative(x[-1]) - alpha[0] * v[-1]  dt)
     F_1.append(x[-1] - x[-2] - dt / 2 * v[-1] - dt / 2 * v[-2])
     F_2.append(v[-1] - v[-2] - dt / 2 * (derivative(x[-1]) - alpha[0] * v[-1]) -
                dt / 2 * (derivative(x[-2]) - alpha[0] * v[-2]))
     Ek.append(F_2[-1] * F_2[-1] / 2)
     Ev.append(equation(F_1[-1]))
+print(F_1)
+
 
 fig, ax = plt.subplots()
 

@@ -1,6 +1,6 @@
 from math import exp, pow
 import matplotlib.pyplot as plt
-
+import matplotlib.lines as mlines
 
 def equation(t):
     return -exp(-pow(t, 2)) - 1.2 * exp(-pow(t - 2, 2)) + 0.6
@@ -10,8 +10,8 @@ def derivative(t):
     return 2 * t * exp(-pow(t, 2)) - 1.2 * (4 - 2 * t) * exp(-pow(t - 2, 2))
 
 
-dt = 0.1
-t = [i * dt for i in range(100000)]
+dt = 0.01
+t = [i * dt for i in range(3000)]
 x = [2.8328820498299936]
 v = [0]
 Ek = []
@@ -31,13 +31,19 @@ def plot_x_t():
     ax.plot(t, x, 'b')
     ax.plot(t, v, 'g')
     ax.plot(t, Ek, 'r')
-    ax.plot(t, Ek_V)
+    ax.plot(t, Ek_V, 'y')
     ax.set(xlabel='v', ylabel="x", title="Jawna metoda Eulera")
+    data_x = mlines.Line2D([], [], label='x(t)', color='blue')
+    data_v = mlines.Line2D([], [], label='v(t)', color='green')
+    data_Ek = mlines.Line2D([], [], label='Ek(t)', color='red')
+    data_Ek_V = mlines.Line2D([], [], label='Ek(t) - Ep(t)', color='yellow')
+    ax.legend(handles=[data_x, data_v, data_Ek, data_Ek_V], loc='upper left',
+              fontsize='x-large')
     plt.savefig("x(t).png")
-    plt.show()
 
+    #plt.show()
 
-# plot_x_t()
+plot_x_t()
 
 def plot_phase_portrait():
     ax.plot(x, v, 'b', markersize=1)
@@ -46,5 +52,4 @@ def plot_phase_portrait():
     plt.show()
 
 
-
-plot_phase_portrait()
+#plot_phase_portrait()

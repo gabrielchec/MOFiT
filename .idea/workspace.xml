@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24227e0c-1163-4ad7-ba6c-c491f0f584db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/euler_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/Img/x(t)_resistance_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/Img/x(t)_resistance_2010.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/Img/x(t)_resistance_2010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/Img/x(t)_resistance_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/RK4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project1/euler_integral_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/euler_integral_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/trapeze_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/trapeze_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/x(t)_trapeze.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/x(t)_trapeze.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,45 +24,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project2/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Project1/main.py">
+        <entry file="file://$PROJECT_DIR$/Project2/RK4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project2/constants.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method_resistance.py">
+        <entry file="file://$PROJECT_DIR$/Project2/euler_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="47" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project1/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -80,12 +87,16 @@
         <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/Project1/bisection_method.py" />
         <option value="$PROJECT_DIR$/Project1/newton_method.py" />
-        <option value="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" />
-        <option value="$PROJECT_DIR$/Project1/trapeze_method.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Project1/euler_integral_method_resistance.py" />
         <option value="$PROJECT_DIR$/Project1/README.md" />
-        <option value="$PROJECT_DIR$/Project1/euler_integral_method.py" />
         <option value="$PROJECT_DIR$/Project1/main.py" />
+        <option value="$PROJECT_DIR$/Project1/trapeze_method.py" />
+        <option value="$PROJECT_DIR$/Project2/constants.py" />
+        <option value="$PROJECT_DIR$/Project1/euler_integral_method.py" />
+        <option value="$PROJECT_DIR$/Project2/euler_method.py" />
+        <option value="$PROJECT_DIR$/Project2/main.py" />
+        <option value="$PROJECT_DIR$/Project2/RK4.py" />
       </list>
     </option>
   </component>
@@ -101,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,19 +123,12 @@
             <path>
               <item name="Mofit" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mofit" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofit" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="Img" type="462c0819:PsiDirectoryNode" />
+              <item name="Project2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +147,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aa012\Desktop\Mofit\Project2\Img" />
       <recent name="C:\Users\aa012\Desktop\Mofit\Project1\Img" />
       <recent name="C:\Users\aa012\Desktop\Mofit" />
     </key>
@@ -194,7 +200,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project1/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +224,8 @@
       <workItem from="1583922294920" duration="837000" />
       <workItem from="1583930002801" duration="23000" />
       <workItem from="1584105539223" duration="11608000" />
-      <workItem from="1584554092887" duration="3404000" />
+      <workItem from="1584554092887" duration="24364000" />
+      <workItem from="1585483931305" duration="20202000" />
     </task>
     <task id="LOCAL-00001" summary="Fix errors">
       <created>1584555787965</created>
@@ -227,21 +234,27 @@
       <option name="project" value="LOCAL" />
       <updated>1584555787965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix errors">
+      <created>1584557827559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584557827559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34501000" />
+    <option name="totallyTimeSpent" value="75663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.042432815" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17821783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -256,7 +269,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.27680966" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -268,8 +281,18 @@
     <MESSAGE value="Fix errors" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix errors" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project1/euler_integral_method.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mofit$main.coverage" NAME="main Coverage Results" MODIFIED="1584557133304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
+    <SUITE FILE_PATH="coverage/Mofit$main.coverage" NAME="main Coverage Results" MODIFIED="1585503959443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project1/bisection_method.py">
@@ -292,9 +315,6 @@
     <entry file="file://$PROJECT_DIR$/Project1/Img/x(t)_resistance_50.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t)_resistance_2010.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project1/bis_point_all.png" />
     <entry file="file://$PROJECT_DIR$/Project1/Img/bis_point_one.png">
       <provider selected="true" editor-type-id="images" />
@@ -308,30 +328,7 @@
     <entry file="file://$PROJECT_DIR$/Project1/Img/new_point_two.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project1/x(t)_resistance.png" />
-    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t)_resistance_05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/trapeze_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -342,31 +339,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Project1/Img/my_euler_phase_001_1000.png" />
+    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t)_resistance_05.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/Img/my_euler_phase_001_1000.png">
+    <entry file="file://$PROJECT_DIR$/Project1/Img/euler_resistance_phase_05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/Img/euler_resistance_phase_2010.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/Img/euler_resistance_phase_50.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/README.md" />
+    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/Img/euler_phase_001_100.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Project1/x(t)_trapeze.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/Img/x(t)_resistance_2010.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method_resistance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="307">
+          <caret line="42" selection-start-line="42" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/trapeze_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="64" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -375,10 +387,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/euler_integral_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/Img/x(t).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/euler_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/RK4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

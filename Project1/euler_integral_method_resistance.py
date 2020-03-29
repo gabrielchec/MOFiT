@@ -20,7 +20,7 @@ Ek = []
 Ek_V = []
 for i in t:
     x.append(x[-1] + v[-1] * dt)
-    v.append(v[-1] - derivative(x[-1]) * dt - alpha[2] * v[-1] * dt)
+    v.append(v[-1] - derivative(x[-2]) * dt - alpha[2] * v[-1] * dt)
     Ek.append(v[-1] * v[-1] / 2)
     Ek_V.append(Ek[-1] + equation(x[-1]))
 fig, ax = plt.subplots()
@@ -34,7 +34,7 @@ def plot_x_t():
     ax.plot(t, v, 'g')
     ax.plot(t, Ek, 'r')
     ax.plot(t, Ek_V, 'y')
-    ax.set(xlabel='t', ylabel="x", title="Jawna metoda Eulera")
+    ax.set(xlabel='t', ylabel="x", title="Jawna metoda Eulera dla alfa = 201")
     data_x = mlines.Line2D([], [], label='x(t)', color='blue')
     data_v = mlines.Line2D([], [], label='v(t)', color='green')
     data_Ek = mlines.Line2D([], [], label='Ek(t)', color='red')
@@ -47,4 +47,15 @@ def plot_x_t():
     plt.show()
 
 
-plot_x_t()
+#plot_x_t()
+
+def plot_phase_portrait():
+    ax.plot(x, v, 'b', markersize=1)
+    ax.set(xlabel='x', ylabel="v", title="Portret fazowy jawnej metody Eulera dla alfa = 201")
+    plt.savefig("euler_resistance_phase_2010.png")
+    plt.show()
+
+
+
+plot_phase_portrait()
+
