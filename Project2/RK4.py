@@ -2,12 +2,19 @@ from constants import *
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 
+dt = 15 * 60
+
+time = [i for i in range(4 * 75 * 365 * 24 * 4)]
+data_rk = [[COMET_POS[0], COMET_POS[1], COMET_VEL[0], COMET_VEL[1]]]
+
 
 def acc_x(x, y):
     return - GRAVITY_CONST * SUN_MASS * x / pow(pow(x, 2) + pow(y, 2), 1.5)
 
+
 def acc_y(x, y):
     return - GRAVITY_CONST * SUN_MASS * y / pow(pow(x, 2) + pow(y, 2), 1.5)
+
 
 def step(x, y, v_x, v_y):
     u_k = [x, y, v_x, v_y]
@@ -43,34 +50,30 @@ def step(x, y, v_x, v_y):
     return u
 
 
-dt = 15 * 60
-
-time = (i for i in range( 4 * 75 * 365 * 24 * 4))
-data_rk = [[COMET_POS[0], COMET_POS[1], COMET_VEL[0], COMET_VEL[1]]]
-
-for t in time:
-    data_rk.append(step(*(data_rk[-1])))
-
-fig, ax = plt.subplots()
-
-x_fin = [i[0] for i in data_rk]
-y_fin = [i[1] for i in data_rk]
-
-
 def plot_x_y():
     ax.plot(x_fin, y_fin, 'b')
     ax.set(xlabel='x', ylabel="y", title="Metoda RK4 dla dt = 15 min")
     plt.savefig("RK4_x_y.png")
 
-    plt.show()
+    #plt.show()
 
 
 def plot_y_t():
-    ax.plot(y_fin, time, 'b')
+    ax.plot(time, y_fin, 'b')
     ax.set(xlabel='x', ylabel="y", title="Metoda RK4 dla dt = 15 min")
-    plt.savefig("RK4_x_y.png")
+    plt.savefig("RK4_y_t.png")
 
-    plt.show()
+    #plt.show()
 
 
+for t in time:
+    data_rk.append(step(*(data_rk[-1])))
+
+x_fin = [i[0] for i in data_rk]
+y_fin = [i[1] for i in data_rk]
+
+fig, ax = plt.subplots()
 plot_x_y()
+y_fin.remove(y_fin[-1])
+fig, ax = plt.subplots()
+plot_y_t()

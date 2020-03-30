@@ -8,9 +8,8 @@ y = [COMET_POS[1]]
 v_x = [COMET_VEL[0]]
 v_y = [COMET_VEL[1]]
 
-dt = 5 * 60
-
-time = (i for i in range(3 * 75 * 365 * 24 * 12))
+dt = 15 * 60
+time = [i for i in range(3 * 75 * 365 * 24 * 4)]
 
 
 def x_n_1(x_n, v_n):
@@ -33,17 +32,28 @@ for t in time:
     y.append(x_n_1(y[-1], v_y[-2]))
 
 
-
-fig, ax = plt.subplots()
-
-def plot_x_t():
-    ax.plot(y, x, 'b')
-    ax.set(xlabel='v', ylabel="x", title="Jawna metoda Eulera")
+def plot_x_y():
+    ax.plot(x, y, 'b')
+    ax.set(xlabel='x [m]', ylabel="y [m]", title="Jawna metoda Eulera dla dt = 15 min")
     data_x_y = mlines.Line2D([], [], label='x(t)', color='blue')
     ax.legend(handles=[data_x_y], loc='upper left',
               fontsize='x-large')
-    plt.savefig("x(t).png")
+    plt.savefig("euler_method_x_y.png")
 
-    plt.show()
+    #plt.show()
 
-plot_x_t()
+def plot_y_t():
+    ax.plot(time, y, 'b')
+    ax.set(xlabel='t [s]', ylabel="y [m]", title="Jawna metoda Eulera dla dt = 15 min")
+    data_x_y = mlines.Line2D([], [], label='x(t)', color='blue')
+    ax.legend(handles=[data_x_y], loc='upper left',
+              fontsize='x-large')
+    plt.savefig("euler_method_y_t.png")
+
+    #plt.show()
+
+fig, ax = plt.subplots()
+plot_x_y()
+fig, ax = plt.subplots()
+y.remove(y[-1])
+plot_y_t()
