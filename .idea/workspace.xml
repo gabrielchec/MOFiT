@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24227e0c-1163-4ad7-ba6c-c491f0f584db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project2/euler_method_automatic_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/RK4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/RK4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/RK4_automatic_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/RK4_automatic_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/euler_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/euler_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +235,7 @@
       <workItem from="1583930002801" duration="23000" />
       <workItem from="1584105539223" duration="11608000" />
       <workItem from="1584554092887" duration="24364000" />
-      <workItem from="1585483931305" duration="37564000" />
+      <workItem from="1585483931305" duration="37813000" />
     </task>
     <task id="LOCAL-00001" summary="Fix errors">
       <created>1584555787965</created>
@@ -263,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585504314430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ready Project 2">
+      <created>1585577147249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577147250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93025000" />
+    <option name="totallyTimeSpent" value="93274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -303,7 +305,8 @@
     <MESSAGE value="add README" />
     <MESSAGE value="Fix errors" />
     <MESSAGE value="Add 2 tasks to Project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2 tasks to Project 2" />
+    <MESSAGE value="Ready Project 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready Project 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
