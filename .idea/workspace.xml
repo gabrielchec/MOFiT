@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24227e0c-1163-4ad7-ba6c-c491f0f584db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project2/Img/euler_method_x_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/Img/euler_method_y_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/MOFiT__2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,16 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project2/euler_method_automatic_time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project2/Img/euler_method_x_y.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -235,7 +243,7 @@
       <workItem from="1583930002801" duration="23000" />
       <workItem from="1584105539223" duration="11608000" />
       <workItem from="1584554092887" duration="24364000" />
-      <workItem from="1585483931305" duration="37813000" />
+      <workItem from="1585483931305" duration="41841000" />
     </task>
     <task id="LOCAL-00001" summary="Fix errors">
       <created>1584555787965</created>
@@ -265,15 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585577147250</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ready Project 2">
+      <created>1585577225674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577225674</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93274000" />
+    <option name="totallyTimeSpent" value="97302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,7 +320,8 @@
     <MESSAGE value="Fix errors" />
     <MESSAGE value="Add 2 tasks to Project 2" />
     <MESSAGE value="Ready Project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready Project 2" />
+    <MESSAGE value="Upload Charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Charts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,24 +535,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/euler_method_x_y.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project2/Img/RK4_y_t.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/euler_method_y_t.png">
+    <entry file="file://$PROJECT_DIR$/Project2/Img/euler_method_y_t.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Project2/euler_method_automatic_time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/Img/euler_method_x_y.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
